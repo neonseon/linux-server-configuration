@@ -50,8 +50,8 @@ Below is a summary of steps taken to successfully deploy the web app, including 
 - Udacity Knowledge Platform:
   - ImportError: cannot import name 'app': https://knowledge.udacity.com/questions/20361
     - Referenced in answer: https://github.com/jaysimonkay/Linux-Configuration
-  - How to setup database, https://knowledge.udacity.com/questions/21727
-  - Internal server error, https://knowledge.udacity.com/questions/10996
+  - How to setup database: https://knowledge.udacity.com/questions/21727
+  - Internal server error: https://knowledge.udacity.com/questions/10996
 
 
 ## Contributing
