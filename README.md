@@ -10,7 +10,36 @@ This project takes a baseline installation of a Linux distribution on a virtual 
 
 ### Summary
 
-Below is a summary of steps taken to successfully deploy the web app, including software installed and configuration changes made.
+Below is a list of essential software used, and a summary of configuration changes and steps taken to successfully deploy the web app.
+
+#### Software/Packages Installed
+Via `apt-get`
+- `finger`
+- `python libexpat1`
+- `apache2 apache2-utils ssl-cert`
+- `libapache2-mod-wsgi`
+- `postgresql postgresql-contrib`
+- `git-core`
+- `python-pip`
+- `unattended-upgrades`
+- `aptitude`
+
+Via `pip` for the virtual environment
+- `virtualenv`
+- `flask`
+- `flask-sqlalchemy`
+- `MySQL-python`
+- `bleach httplib2 request`
+- `psycopg2`
+- `psycopg2-binary`
+- `oauth2client`
+- `requests`
+- `slugify`
+- `sqlalchemy`
+
+Via `easy_install`
+- `SQLAlchemy`
+
 
 #### Procured Server
 - Started a new Ubuntu Linux server instance on Amazon Lightsail.
@@ -47,6 +76,7 @@ Below is a summary of steps taken to successfully deploy the web app, including 
 - Digital Ocean, [How To Secure PostgreSQL on an Ubuntu VPS](https://www.digitalocean.com/community/tutorials/how-to-secure-postgresql-on-an-ubuntu-vps)
 - Official PostgreSQL Documentation, [postgresql.org](https://www.postgresql.org/)
 - Stack Overflow, [Google: Permission denied to generate login hint for target domain NOT on localhost](https://stackoverflow.com/questions/36020374/google-permission-denied-to-generate-login-hint-for-target-domain-not-on-localh)
+- Server Fault, [Update Ubuntu](https://serverfault.com/questions/262751/update-ubuntu-10-04/262773#262773)
 - Udacity Knowledge Platform:
   - ImportError: cannot import name 'app': https://knowledge.udacity.com/questions/20361
     - Referenced in answer: https://github.com/jaysimonkay/Linux-Configuration
